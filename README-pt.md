@@ -38,7 +38,7 @@ Cada tarefa possui as seguintes propriedades:
 ### Instalação
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SouzaTalles/task-tracker-cli.git
+   git clone https://github.com/SouzaTalles/task_tracker_CLI.git
    cd task-tracker-cli
    ```
 2. Compile o projeto:
