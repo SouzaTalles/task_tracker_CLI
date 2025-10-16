@@ -6,20 +6,20 @@ Tasks are stored in a local JSON file, ensuring persistence across sessions.
 
 ---
 
-## ✨ Features
+## Features
 - Add new tasks
 - Update existing tasks
 - Delete tasks
 - Mark tasks as **in-progress** or **done**
 - List all tasks
 - List tasks by status:
-    - ✅ Done
-    - ⏳ In Progress
-    - 📝 To Do
+    - Done
+    - In Progress
+    - To Do
 
 ---
 
-## 📂 Task Properties
+## Task Properties
 Each task contains the following properties:
 - **id**: Unique identifier
 - **description**: Short description of the task
@@ -29,7 +29,7 @@ Each task contains the following properties:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - [Java 17+](https://adoptium.net/) installed
@@ -53,7 +53,7 @@ Each task contains the following properties:
 
 ---
 
-## 🛠️ Usage
+## Usage
 
 ### Add a new task
 ```bash
@@ -99,26 +99,26 @@ java Main help
 
 ---
 
-## 📁 Data Storage
+## Data Storage
 - Tasks are stored in a local file called `tasks.json` in the project directory.
 - The file will be created automatically if it doesn’t exist.
 
 ---
 
-## ⚠️ Error Handling
+## Error Handling
 - Invalid task IDs will return a clear error message (e.g., `[ERROR] No task found with ID 5`).
 - Missing or invalid arguments will print usage instructions.
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 - Add search by keyword
 - Add sorting by `createdAt` or `status`
 - Add unit tests
 
 ---
 
-## 🧑‍💻 Author
+## Author
 Developed by **Talles Souza** as a practice project for learning file handling, user input, and CLI applications in Java.  
 
 ---
